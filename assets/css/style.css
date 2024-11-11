@@ -110,7 +110,7 @@ a {
 
 /*========== Hero ==========  */
 .hero {
-    padding-top: 57px; /*vì padding 8px của .nav a nên 65 - 8 */
+    padding: 57px 0 65px; /*vì padding 8px của .nav a nên 65 - 8 */
     background: #fffcf4;
 }
 
@@ -125,6 +125,7 @@ a {
 }
 
 .hero .media-block .img {
+    display: block;
     width: 470px;
     height: 685px;
     object-fit: cover;
@@ -136,7 +137,7 @@ a {
     right: 0;
     bottom: 48px;
     width: 270px;
-    padding: 28px 24px;
+    padding: 24px;
     background: #ffffff;
     box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
     border-radius: 12px;
@@ -144,6 +145,7 @@ a {
 
 .hero-summary .item {
     display: flex;
+    align-items: center;
 }
 
 .hero-summary .item + .item {

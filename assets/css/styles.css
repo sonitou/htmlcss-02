@@ -686,6 +686,10 @@ a {
     width: 35%;
 }
 
+.footer .column .title {
+    border-bottom: 1px solid #59554b;
+}
+
 .footer .desc {
     margin-top: 18px;
     color: #bfbcb2;
